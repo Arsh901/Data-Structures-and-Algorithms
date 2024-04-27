@@ -47,6 +47,7 @@ class Stack:
 
     def delete_all(self):
         self.list = None
+        self.length = 0
 
 
 
