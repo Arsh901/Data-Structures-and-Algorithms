@@ -1,0 +1,21 @@
+Recursion -> a way of solving a problem by having a function call itself
+
+Methodology -
+-> Perform same operation multiple times with different input
+-> In every step, we try smaller inputs to make problem smaller
+-> Base condition needed to stop recursion, otherwise infinite loop will occur
+
+Recursion can be used when a given problem can be divided into several sub-problems
+and each sub-problem is similar to the entire problem
+
+Recursion is not time or space efficient compared to iterative method. But recursion is easy to implement.
+Recursion must be avoided when time and space complexity matter. It uses embedded memory in the
+form of stack and it can be slow to use.
+
+
+
+
+
+
+
+
