@@ -4,9 +4,10 @@
 """
 When to use this sorting -
   --> When size of the list is small. 
-  --> No extra space is needed
+  --> No extra space is needed i.e. we have insufficient space
 When to avoid - 
   --> The size of list is very large. Finding min element again and again is difficult
+  --> Huge time complexity
 """
 
 def selection_sort(customList):
@@ -19,6 +20,8 @@ def selection_sort(customList):
     print(customList)
 
 selection_sort([9, 11, 4, 20, 15, 1, 22, 14])
+
+# Time Complexity - O(N) and Space Complexity - O(1)
 
 
 
